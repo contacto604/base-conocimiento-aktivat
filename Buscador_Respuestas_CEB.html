@@ -1,0 +1,366 @@
+<meta charset="utf-8">
+<title>Respuestas CEB — Aktiva-T</title>
+<style>
+  :root{
+    --ink: #14120D;
+    --paper: #FAF7F0;
+    --paper-2: #F1ECDF;
+    --gold: #B8860F;
+    --gold-strong: #8C6A0C;
+    --gold-soft: #F0E3BC;
+    --line: rgba(20,18,13,0.12);
+    --text: #2A2620;
+    --text-dim: #6B6355;
+    --card: #FFFFFF;
+    --ok: #3E6B4F;
+    --ok-bg: #E4EEE6;
+    --info: #3B5B73;
+    --info-bg: #E6EDF1;
+    --warn: #9A5A1E;
+    --warn-bg: #F3E4D2;
+    --focus: #1E6FD9;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink: #F3EFE4;
+      --paper: #16140F;
+      --paper-2: #1D1A13;
+      --gold: #E3B94A;
+      --gold-strong: #F3D488;
+      --gold-soft: #3A2F14;
+      --line: rgba(243,239,228,0.14);
+      --text: #ECE7D9;
+      --text-dim: #A79E8B;
+      --card: #1F1C15;
+      --ok: #8FCBA4;
+      --ok-bg: #223229;
+      --info: #9BC0DA;
+      --info-bg: #1F2C35;
+      --warn: #E3A972;
+      --warn-bg: #3A2A1A;
+      --focus: #6FA9F5;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink: #F3EFE4; --paper: #16140F; --paper-2: #1D1A13; --gold: #E3B94A; --gold-strong: #F3D488;
+    --gold-soft: #3A2F14; --line: rgba(243,239,228,0.14); --text: #ECE7D9; --text-dim: #A79E8B;
+    --card: #1F1C15; --ok: #8FCBA4; --ok-bg: #223229; --info: #9BC0DA; --info-bg: #1F2C35;
+    --warn: #E3A972; --warn-bg: #3A2A1A; --focus: #6FA9F5;
+  }
+  :root[data-theme="light"]{
+    --ink: #14120D; --paper: #FAF7F0; --paper-2: #F1ECDF; --gold: #B8860F; --gold-strong: #8C6A0C;
+    --gold-soft: #F0E3BC; --line: rgba(20,18,13,0.12); --text: #2A2620; --text-dim: #6B6355;
+    --card: #FFFFFF; --ok: #3E6B4F; --ok-bg: #E4EEE6; --info: #3B5B73; --info-bg: #E6EDF1;
+    --warn: #9A5A1E; --warn-bg: #F3E4D2; --focus: #1E6FD9;
+  }
+
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background: var(--paper);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+  }
+  ::selection{ background: var(--gold-soft); }
+
+  .shell{ max-width: 780px; margin: 0 auto; padding: 0 20px 64px; }
+
+  header.top{
+    position: sticky; top: 0; z-index: 20;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 20px 0 14px;
+  }
+  .brand-row{
+    display:flex; align-items:baseline; justify-content:space-between; gap: 12px;
+    margin-bottom: 14px;
+  }
+  .brand{
+    font-weight: 800; font-size: 15px; letter-spacing: 0.02em; color: var(--ink);
+    text-transform: uppercase;
+  }
+  .brand span{ color: var(--gold); }
+  .brand-sub{
+    font-size: 11.5px; color: var(--text-dim); font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+
+  .search-wrap{ position: relative; }
+  .search-input{
+    width: 100%;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 44px 14px 16px;
+    border-radius: 12px;
+    border: 1.5px solid var(--line);
+    background: var(--card);
+    color: var(--text);
+    outline: none;
+  }
+  .search-input::placeholder{ color: var(--text-dim); }
+  .search-input:focus{
+    border-color: var(--focus);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 22%, transparent);
+  }
+  .search-icon{
+    position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+    width: 18px; height: 18px; color: var(--text-dim); pointer-events: none;
+  }
+
+  .pills{
+    display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px;
+  }
+  .pill{
+    font-family: inherit;
+    font-size: 12.5px; font-weight: 700; letter-spacing: 0.01em;
+    padding: 7px 13px; border-radius: 100px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--text-dim);
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .pill:focus-visible{ outline: 2px solid var(--focus); outline-offset: 2px; }
+  .pill[aria-pressed="true"]{
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  :root[data-theme="dark"] .pill[aria-pressed="true"],
+  @media (prefers-color-scheme: dark){ .pill[aria-pressed="true"]{ background: var(--gold); color: #16140F; border-color: var(--gold); } }
+  :root[data-theme="dark"] .pill[aria-pressed="true"]{ background: var(--gold); color: #16140F; border-color: var(--gold); }
+
+  .meta-row{
+    display:flex; justify-content: space-between; align-items:center;
+    margin: 22px 0 12px;
+    font-size: 12px; color: var(--text-dim); font-weight: 600;
+    letter-spacing: 0.02em; text-transform: uppercase;
+  }
+
+  .group-label{
+    font-size: 11.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--gold-strong); margin: 28px 0 10px;
+  }
+  .group-label:first-of-type{ margin-top: 6px; }
+
+  .card{
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  .card-top{
+    display:flex; align-items:flex-start; justify-content: space-between; gap: 10px;
+    margin-bottom: 6px;
+  }
+  .q{
+    font-weight: 700; font-size: 15px; line-height: 1.4; color: var(--ink);
+    text-wrap: balance;
+  }
+  .tag{
+    flex-shrink: 0;
+    font-size: 10.5px; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase;
+    padding: 3px 9px; border-radius: 100px;
+    white-space: nowrap;
+  }
+  .tag.precio{ background: var(--ok-bg); color: var(--ok); }
+  .tag.politica{ background: var(--info-bg); color: var(--info); }
+  .tag.pendiente{ background: var(--warn-bg); color: var(--warn); }
+  .a{
+    font-size: 14px; line-height: 1.6; color: var(--text); font-weight: 400;
+    max-width: 62ch;
+  }
+  .a b{ color: var(--ink); font-weight: 700; }
+  .src{
+    margin-top: 10px; font-size: 11px; color: var(--text-dim); font-weight: 500;
+    font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+
+  mark{
+    background: var(--gold-soft); color: inherit; border-radius: 3px; padding: 0 1px;
+  }
+
+  .empty{
+    text-align: center; padding: 60px 20px; color: var(--text-dim);
+  }
+  .empty .big{ font-size: 32px; margin-bottom: 8px; }
+
+  .foot{
+    margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line);
+    font-size: 11.5px; color: var(--text-dim); text-align: center; line-height: 1.6;
+  }
+
+  @media (max-width: 480px){
+    .shell{ padding: 0 14px 48px; }
+    .q{ font-size: 14.5px; }
+  }
+</style>
+
+<div class="shell">
+  <header class="top">
+    <div class="brand-row">
+      <div class="brand">AKTIVA<span>-T</span> · Respuestas CEB</div>
+      <div class="brand-sub" id="countLabel">— resultados</div>
+    </div>
+    <div class="search-wrap">
+      <input class="search-input" id="searchInput" type="text" placeholder="Escribe una palabra: congelamiento, VIP 8, horario box, convenio…" autocomplete="off" />
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+    </div>
+    <div class="pills" id="pillsRow"></div>
+  </header>
+
+  <div id="results"></div>
+  <div class="foot">Herramienta interna de consulta rápida — no reemplaza la Base de Conocimiento CEB completa ni el criterio de Dirección en casos excepcionales.</div>
+</div>
+
+<script>
+const ENTRIES = [
+{cat:"Ecosistema", q:"¿Dónde está el Studio Aktiva-T?", a:"General Baquedano 872, Coyhaique. Tiene estacionamiento y duchas. Horario: lunes a viernes 06:00–22:00, sábado 09:00–13:00.", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Dónde está el Box Aktiva-T y qué horario tiene?", a:"Entrada por Almirante Barroso 777. Comparte esquina/edificio con la Clínica (entrada por Cristóbal Colón). El horario <b>varía por día</b>: Lunes y Miércoles 07:00–13:00 y 17:00–20:00. Martes y Jueves 08:00–13:00 y 17:00–19:00 (18:00 es Funcional Kids). Viernes 07:00–13:00 y clases a las 17:00 y 19:00. Cerrado 14:00–16:00 todos los días. WhatsApp Box: +569 73554774.", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Dónde está la Clínica Aktiva-T?", a:"Entrada por Cristóbal Colón 203 — misma esquina que el Box, pero acceso independiente. Traumatología, kinesiología, nutrición deportiva, pediatría, psicología, tratamiento de la obesidad y reintegro deportivo. Horario: lunes a viernes 10:00–13:00 y 15:00–20:00 (confirmar reserva con el equipo).", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Qué diferencia a Aktiva-T de otros gimnasios de Coyhaique?", a:"Es el único centro de Coyhaique con <b>clínica y kinesiología propias</b> — útil como argumento de seguridad para quien teme lesionarse o viene de una lesión.", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Cómo elijo entre Studio y Box para un cliente indeciso?", a:"Studio: salud, entrenar guiado a su ritmo, Pilates, empezar desde cero, bienestar. Box: intensidad, comunidad, Cross Training, funcional, menor inversión mensual, clases de GAP. Si es ambiguo, pregunta: “¿prefieres entrenar a tu ritmo con guía profesional, o en grupo con energía e intensidad?”", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Qué horario tiene la Cafetería?", a:"Lunes a viernes, 07:00 a 21:00, continuado.", src:"01_Ecosistema_y_Ubicaciones.md"},
+{cat:"Ecosistema", q:"¿Dónde veo el horario de Pilates Reformer o Indoor Cycling?", a:"En los archivos “Horarios Indoor Cycling.docx” y “Horarios Pilates Reformer (Baquedano).docx” de la carpeta Base de Conocimiento CEB. Pilates Reformer también se dicta en sede Barroso con horario propio (Carla y Antonia).", src:"01_Ecosistema_y_Ubicaciones.md"},
+
+{cat:"Precios", q:"¿Cuánto cuesta el Plan Esencial?", a:"$105.000 al mes. Anual con 10% de descuento: $94.500/mes ($1.134.000/año). Incluye musculación asistida, Indoor Cycling, entrenamiento asistido y 1 evaluación de composición corporal al mes. No incluye Pilates Reformer.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuánto cuesta el Plan Pro?", a:"$140.000 al mes. Anual con 10%: $126.000/mes ($1.512.000/año). Todo el Esencial + Pilates Reformer completo. <b>No incluye seguimiento ni entrenamiento personalizado</b> — eso es exclusivo del VIP.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuáles son los planes del Box y sus precios?", a:"Plan Básico: 8 sesiones/mes, $45.000. Plan Activo: 10 sesiones/mes, $59.000. Plan Open Box: acceso ilimitado, $75.000.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuánto cuesta el VIP 8 (8 sesiones 1:1 al mes)?", a:"Personalizado: $180.000/mes ($153.000/mes en anual). Combinado: $190.000/mes. Pilates: $200.000/mes.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuánto cuesta el VIP 12 (12 sesiones 1:1 al mes)?", a:"Personalizado: $240.000/mes ($204.000/mes en anual). Combinado: $255.000/mes. Pilates: $270.000/mes.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Qué incluye el VIP que no incluye una sesión suelta?", a:"Evaluación diagnóstica inicial obligatoria, reporte de progreso mensual documentado, entrenador asignado con horario fijo, coordinación con clínica si aplica, y evaluación corporal incluida. La sesión suelta no tiene nada de esto.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Qué es la modalidad Dúo?", a:"La misma membresía VIP 8 o VIP 12 tomada por dos personas a la vez, con el mismo entrenador y horario. Precio por persona: $18.000/sesión mensual ($144.000 Dúo 8 · $216.000 Dúo 12), o $15.300/sesión en anual.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuánto cuesta una sesión suelta / \"arma tu plan\" (sin membresía)?", a:"Personalizado sala/funcional: $22.500. Pilates Reformer personalizado: $25.000. Pilates Reformer grupal: $18.000/clase. Entrenamiento asistido: $12.000/sesión. Es una válvula de escape, no la oferta principal: si el cliente viene más de 6 veces al mes, la membresía siempre conviene más.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Cuánto cuesta el módulo Acceso Total y para quién es?", a:"$25.000/mes. <b>Solo disponible para quienes ya tienen una membresía VIP (8 o 12) contratada</b> — no se vende de forma independiente ni a socios de Esencial/Pro/Box. Da acceso a musculación, cycling, asistido y Pilates grupal, sobre el plan VIP.", src:"02_Membresias_y_Precios.md"},
+{cat:"Precios", q:"¿Los paquetes de sesiones en UF (2025) siguen vigentes?", a:"Solo para <b>alumnos antiguos, hasta fin de 2026</b>. Los alumnos nuevos van directo a la lista de precios actual en CLP.", src:"07_Decisiones_y_Pendientes.md"},
+{cat:"Precios", q:"¿Cuánto cuesta el servicio de cumpleaños?", a:"Plan Básico: $7.000 p/p (espacio + monitor + mobiliario). Plan Nutritivo: $19.000 p/p (+ snacks y bebidas). Plan Total: $19.000 p/p + valor del inflable elegido. Mínimo 20 personas. Fotografía aparte: $50.000/hora.", src:"05_Servicios_Adicionales.md"},
+
+{cat:"Políticas", q:"¿Se puede congelar (congelamiento) un plan Esencial, Pro o Box?", a:"Solo bajo <b>circunstancias específicas, con comprobante médico u otra justificación válida, y siempre documentado</b>. No es autoservicio — recepción deriva el caso a Dirección, nunca lo resuelve por su cuenta.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"¿Qué pasa si el socio VIP no cancela una sesión a tiempo?", a:"Al ser 1:1 con horario fijo, la sesión se pierde ese mes — no es acumulable ni genera crédito. No aplica bloqueo de reservas como en los planes grupales.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"¿Qué pasa si un socio de plan grupal falta sin avisar?", a:"Cuenta como inasistencia. Dos inasistencias consecutivas sin cancelación generan bloqueo de reservas por unos días (cantidad exacta aún no definida por Dirección). El bloqueo no impide asistir sin reserva si hay cupo.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"¿Se puede transferir un plan a otra persona?", a:"No. Todos los planes son personales e intransferibles.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"¿Cuál es la ventana de cancelación de una reserva?", a:"Mínimo 2 horas antes de la clase, sin penalidad. Reservas por app EVO con ventana de 7 días.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"Un cliente pregunta por reembolsos o reglas contractuales, ¿qué le digo?", a:"No respondas de memoria — deriva al equipo/Dirección para confirmar el caso puntual antes de dar una respuesta definitiva.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+{cat:"Políticas", q:"¿Cuál es el tope de sesiones de Pilates en el plan Combinado?", a:"Máximo 3 de 8 sesiones (VIP 8) o 4 de 12 (VIP 12). Lo controla el entrenador al agendar. Si se supera consistentemente, recepción ofrece migrar a plan Pilates el mes siguiente.", src:"03_Politicas_y_Reglas_de_Uso.md"},
+
+{cat:"Convenios", q:"¿Cómo funciona un convenio corporativo con Aktiva-T?", a:"Modelo maestro (caso Club Leones de la Patagonia): descuento <b>independiente por unidad</b> (no un % único) — ej. 15% Box, 10% Studio, 5% Cafetería, 5% Clínica — con credencial de la organización, vigencia inicial de 12 meses y el mecanismo “Pase Aktiva-T”.", src:"04_Convenios_Corporativos.md"},
+{cat:"Convenios", q:"¿Qué es el “Pase Aktiva-T” en un convenio?", a:"Descuento cruzado: si el socio de la organización convenio tiene plan activo en Box o Studio, se activa automáticamente el descuento en Cafetería. Si el plan de gym vence, el descuento en cafetería se suspende solo.", src:"04_Convenios_Corporativos.md"},
+{cat:"Convenios", q:"Una empresa o club pregunta por convenio, ¿qué datos le pido?", a:"Nombre de la organización, tipo (empresa/club/institución), nombre y cargo del contacto, email y teléfono, número aproximado de socios interesados, y qué unidades les interesan (Box/Studio/Cafetería/Clínica). El % de descuento y condiciones las define Dirección caso a caso — no las cotices tú.", src:"08_Datos_Convenio_para_Prompt_Akti.md"},
+
+{cat:"Pendiente", q:"¿Cuál es la antigüedad mínima para ser “alumno antiguo” (descuento 20%)?", a:"Aún no definida — responsable: Fidel. No prometas este descuento sin confirmar primero.", src:"07_Decisiones_y_Pendientes.md"},
+{cat:"Pendiente", q:"¿Cuántos días dura el bloqueo por inasistencias consecutivas?", a:"Aún no definido (¿3 o 5 días?) — responsable: Edgar/Fidel.", src:"07_Decisiones_y_Pendientes.md"},
+{cat:"Pendiente", q:"¿Qué convenios de reciprocidad tiene Aktiva-T en otros comercios (CEM, Golden Place, etc.)?", a:"Aún no está la lista de condiciones — pendiente que Edgar la comparta. No inventes beneficios en otros negocios sin confirmar primero.", src:"07_Decisiones_y_Pendientes.md"},
+];
+
+const CATS = ["Todos","Ecosistema","Precios","Políticas","Convenios","Pendiente"];
+const tagClass = {Precios:"precio", Políticas:"politica", Pendiente:"pendiente"};
+
+let activeCat = "Todos";
+let query = "";
+
+const pillsRow = document.getElementById("pillsRow");
+const resultsEl = document.getElementById("results");
+const searchInput = document.getElementById("searchInput");
+const countLabel = document.getElementById("countLabel");
+
+CATS.forEach(c => {
+  const btn = document.createElement("button");
+  btn.className = "pill";
+  btn.textContent = c;
+  btn.setAttribute("aria-pressed", c === activeCat ? "true" : "false");
+  btn.addEventListener("click", () => {
+    activeCat = c;
+    [...pillsRow.children].forEach(p => p.setAttribute("aria-pressed", p.textContent === c ? "true" : "false"));
+    render();
+  });
+  pillsRow.appendChild(btn);
+});
+
+function normalize(s){
+  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
+function queryWords(q){
+  return normalize(q).split(/\s+/).filter(Boolean);
+}
+
+// Query is plural ("horarios") but content is singular ("horario"), or vice versa:
+// a plain substring check misses the case where the query is LONGER than the
+// content word (content.includes(query) fails). Stripping a trailing "s"/"es"
+// from the query gives a second, shorter candidate to test against the content.
+function wordVariants(w){
+  const variants = [w];
+  if(w.length > 4 && w.endsWith("es")) variants.push(w.slice(0, -2));
+  else if(w.length > 3 && w.endsWith("s")) variants.push(w.slice(0, -1));
+  return variants;
+}
+
+function highlight(text, q){
+  const words = queryWords(q);
+  if(words.length === 0) return text;
+  // Matches against the original (accented) text, case-insensitive only.
+  // Accent-insensitive matching (e.g. "cuanto" finding "cuánto") still filters
+  // results correctly via matches(); here we only skip the visual <mark> in that case.
+  const allVariants = words.flatMap(wordVariants);
+  const escaped = allVariants.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const re = new RegExp("(" + escaped.join("|") + ")", "gi");
+  return text.replace(re, "<mark>$1</mark>");
+}
+
+function matches(entry, q){
+  const words = queryWords(q);
+  if(words.length === 0) return true;
+  const haystack = normalize(entry.q + " " + entry.a + " " + entry.cat);
+  return words.every(w => wordVariants(w).some(v => haystack.includes(v)));
+}
+
+function render(){
+  const filtered = ENTRIES.filter(e => (activeCat === "Todos" || e.cat === activeCat) && matches(e, query));
+  countLabel.textContent = filtered.length + (filtered.length === 1 ? " resultado" : " resultados");
+
+  resultsEl.innerHTML = "";
+
+  if(filtered.length === 0){
+    const empty = document.createElement("div");
+    empty.className = "empty";
+    empty.innerHTML = '<div class="big">🔍</div>Sin resultados. Prueba con otra palabra, o revisa la Base de Conocimiento CEB completa.';
+    resultsEl.appendChild(empty);
+    return;
+  }
+
+  let lastGroup = null;
+  const grouping = !query && activeCat === "Todos";
+
+  filtered.forEach(e => {
+    if(grouping && e.cat !== lastGroup){
+      lastGroup = e.cat;
+      const label = document.createElement("div");
+      label.className = "group-label";
+      label.textContent = e.cat;
+      resultsEl.appendChild(label);
+    }
+    const card = document.createElement("div");
+    card.className = "card";
+    const tagCls = tagClass[e.cat] || "";
+    card.innerHTML = `
+      <div class="card-top">
+        <div class="q">${highlight(e.q, query)}</div>
+        <div class="tag ${tagCls}">${e.cat}</div>
+      </div>
+      <div class="a">${highlight(e.a, query)}</div>
+      <div class="src">${e.src}</div>
+    `;
+    resultsEl.appendChild(card);
+  });
+}
+
+searchInput.addEventListener("input", (ev) => {
+  query = ev.target.value.trim();
+  render();
+});
+
+render();
+</script>
