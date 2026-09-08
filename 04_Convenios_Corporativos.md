@@ -8,17 +8,19 @@ El convenio con Tropera (`Convenios\Convenio_Tropera_AktivaT.pdf`, junio 2026) q
 
 Convenio formal entre el Ecosistema Aktiva-T y una organización (empresa, club deportivo, institución), con:
 - **Descuento independiente por unidad** — no un porcentaje único para todo el ecosistema.
-- Cobertura de **las 4 unidades**: Box, Studio, Cafetería, Clínica (una organización puede incluir todas o solo algunas).
+- Cobertura de **las unidades activas**: Box, Studio, Cafetería (una organización puede incluir todas o solo algunas). **Clínica Aktiva-T ya no forma parte del ecosistema activo — no incluirla en convenios nuevos.**
 - Mecanismo **"Pase Aktiva-T"**: plan activo en gym (Box o Studio) activa automáticamente el descuento en Cafetería. Si el plan de gym vence, el descuento en cafetería se suspende solo.
 - Beneficio activado mediante **credencial de la organización vigente** (o "Pase Aktiva-T" en el caso de cafetería).
 
 ### Ejemplo aplicado (caso Club Leones de la Patagonia)
+**Nota:** la fila de Clínica queda como registro histórico de lo firmado en el PDF original — el beneficio ya no aplica porque la Clínica salió del ecosistema activo (ver [01_Ecosistema_y_Ubicaciones.md](01_Ecosistema_y_Ubicaciones.md)). No usar esta fila para responder consultas actuales de convenio.
+
 | Servicio | Descuento | Dirección | Condición |
 |---|---|---|---|
 | Box Aktiva-T | 15% en membresía mensual | Barroso 777 | Credencial vigente |
 | Studio Aktiva-T (CEB) | 10% en membresía mensual | Baquedano 872 | Credencial vigente |
 | Cafetería Aktiva | 5% en consumo diario | Baquedano 872 | Pase Aktiva-T activo |
-| Clínica Aktiva-T | 5% en 1ª consulta (Med. General, Traumatología, Nutricionista) | Colón 203 | Credencial vigente |
+| ~~Clínica Aktiva-T~~ | ~~5% en 1ª consulta (Med. General, Traumatología, Nutricionista)~~ | Colón 203 | **Inactivo — Clínica fuera del ecosistema** |
 
 ### Tabla de precios con descuento — Box (15%)
 | Plan | Precio oficial | Precio convenio | Ahorro |

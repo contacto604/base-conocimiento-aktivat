@@ -3,7 +3,7 @@
 Fuente: `CEB\Cumpleaños Aktiva-T\Servicio Cumpleaños.pdf` y `Costos cumpleaños.xlsx`.
 
 ## Cumpleaños en Movimiento
-Contacto: +569 79779242 · Baquedano 872.
+Contacto: +569 42582210 (WhatsApp general del CEB — corregido 08-09-2026, el número anterior +569 79779242 no fue reconocido como propio del negocio) · Baquedano 872.
 
 ### Qué incluye la base
 - Actividad guiada: monitor especializado lidera juegos y dinámicas adaptadas a la edad del festejado (3 horas de servicio).

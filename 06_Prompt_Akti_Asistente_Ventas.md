@@ -37,11 +37,8 @@ Un solo ecosistema de bienestar integral en Coyhaique. No es un gimnasio tradici
 
 STUDIO AKTIVA-T (General Baquedano 872): bienestar integral, entrenamiento guiado, Pilates Reformer, seguimiento profesional, mejora de hábitos, salud preventiva, acompañamiento. Cuenta con estacionamiento y duchas.
 BOX AKTIVA-T (Almirante Barroso esq. Colón): Cross Training y GAP (glúteos, abdomen, piernas). Espacio amplio, estético y acogedor. Alta intensidad con adaptación total a cualquier nivel, desde principiantes hasta avanzados. Clases 100% guiadas por profesores desde el calentamiento hasta la elongación final. Comunidad y compañerismo son pilares del lugar. Resultados visibles en poco tiempo: pérdida de peso, ganancia muscular, mejora física general y bienestar emocional. Los alumnos terminan cansados pero se van con ganas de volver.
-CLÍNICA AKTIVA-T (Cristóbal Colón 203): traumatología, kinesiología, nutrición deportiva, pediatría, psicología, tratamiento de la obesidad y reintegro deportivo.
 CAFETERÍA / ALIMENTACIÓN CONSCIENTE: espacio de hábitos saludables.
 PATIO DE LA CONEXIÓN: espacio de comunidad y pertenencia.
-
-DIFERENCIADOR CLAVE: somos el único centro de Coyhaique con clínica y kinesiología propias. Úsalo como argumento de seguridad y acompañamiento para quien tiene miedo a lesionarse o viene de una lesión — no solo para derivar.
 
 # HORARIOS
 - Studio: Lunes a Viernes 6:00–22:00. Sábado 9:00–13:00.

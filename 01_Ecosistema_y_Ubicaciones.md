@@ -11,7 +11,7 @@
 5. **Coworking CEB** — espacio de trabajo flexible dentro de Baquedano 872. Incorporado el 23-07-2026. Uso individual o reservas para reuniones/talleres/capacitaciones de hasta 20 personas. Incluye aire acondicionado, WiFi de alta velocidad, pantalla interactiva, dirección tributaria, recepción de encomiendas y estacionamiento — con cafetería y gimnasio en el mismo edificio. Reservas por WhatsApp general (+569 42582210). Sin tarifas públicas confirmadas aún.
 6. **Recovery — Aktivat Recovery & Performance** — recuperación y regeneración deportiva (descarga muscular, presoterapia, percusión terapéutica). Incorporado el 22-07-2026 como servicio de bienestar (Edgar). Se posiciona como recuperación/rendimiento, NO como clínica médica. Ubicación: Baquedano 872. Planes y precios en [02_Membresias_y_Precios.md](02_Membresias_y_Precios.md).
 
-**Clínica Aktiva-T queda fuera del ecosistema activo por el momento** (su futuro con el negocio es incierto) — no debe aparecer en landing, prompt de Akti, ni material público, aunque la dirección/entrada física siga existiendo (ver más abajo, sección histórica). Nota: Recovery (Aktivat Recovery & Performance) sí es parte del ecosistema activo y es distinto de la Clínica — es un servicio de recuperación deportiva, no atención clínica médica.
+Nota: Recovery (Aktivat Recovery & Performance) es un servicio de recuperación deportiva, no atención clínica médica.
 
 ## Canales de contacto / WhatsApp
 - **General CEB:** +569 42582210 (`wa.me/56942582210`) — usado en web, kiosco, CTAs de la landing. Sede Baquedano 872.
@@ -19,7 +19,7 @@
 - **Box Aktiva-T:** +569 73554774. Sede Barroso 777.
 - **Cafetería Aktiva:** +569 68390034 (confirmado por Edgar 31-07-2026). Sede Baquedano 872. Publicado en la fila de Cafetería del Ecosistema y en el footer de la landing.
 - **Recovery (Aktivat Recovery & Performance):** +569 76187668 (agregado 06-08-2026) — Recovery lo gestiona directamente el profesional a cargo, ya no pasa por el WhatsApp general. Publicado en el botón "Reservar por WhatsApp" del acordeón de Recovery en Membresías y en el footer de la landing.
-- **Cumpleaños:** +569 79779242.
+- **Cumpleaños:** +569 42582210 (WhatsApp general del CEB — corregido 08-09-2026, el número anterior no fue reconocido como propio del negocio).
 - **Correo:** contacto@aktiva-t.com (confirmado 22-07-2026, usado en el footer de la landing).
 - **Edgar (número institucional personal):** +569 84039920 (agregado 06-08-2026). Es el número al que el bot de WhatsApp (Meta Business Agent) deriva cuando alguien pide información técnica, quiere conversar sobre su evaluación de composición corporal, o pide hablar directo con un entrenador. No es un número público en la landing — solo lo usa el bot como derivación puntual.
 
@@ -34,7 +34,7 @@ No son parte de los planes base Esencial/Pro/Box — son programas aparte, sin p
 **Taller de fuerza para niños** — retirado de la landing y del ecosistema público el 23-07-2026 por decisión de Edgar; ya no se ofrece como actividad independiente (Funcional Kids la reemplaza).
 
 ## Cumpleaños en Movimiento — en la landing (agregado 22-07-2026)
-Servicio conjunto entre **Cafetería Aktiva y el CEB** (Studio). Ya estaba documentado en [05_Servicios_Adicionales.md](05_Servicios_Adicionales.md) — ahora también está publicado en la landing como sección propia (`#cumpleanos`), con los 3 planes (Básico $7.000 p/p, Nutritivo $19.000 p/p, Total $19.000 p/p + inflable) y el WhatsApp de cumpleaños (+569 79779242) como CTA.
+Servicio conjunto entre **Cafetería Aktiva y el CEB** (Studio). Ya estaba documentado en [05_Servicios_Adicionales.md](05_Servicios_Adicionales.md) — ahora también está publicado en la landing como sección propia (`#cumpleanos`), con los 3 planes (Básico $7.000 p/p, Nutritivo $19.000 p/p, Total $19.000 p/p + inflable) y el WhatsApp general del CEB (+569 42582210) como CTA (número dedicado anterior corregido el 08-09-2026, ver nota más arriba).
 
 ## Trabaja con Nosotros — en la landing (agregado 22-07-2026)
 Nueva sección (`#trabaja`) con un CTA de correo (`mailto:contacto@aktiva-t.com`) para que quien quiera postular envíe su CV. Enlazada también desde el footer.
@@ -45,8 +45,7 @@ Nueva sección (`#trabaja`) con un CTA de correo (`mailto:contacto@aktiva-t.com`
 - **Instalaciones:** estacionamiento y duchas.
 - **Horario:** Lunes a Viernes 06:00–22:00 · Sábado 09:00–13:00. **Único cierre al público:** martes y jueves a las 21:00, reservado para la preparación física de dos equipos de fútbol (confirmado por Edgar 24-07-2026). El resto del horario funciona con normalidad. Publicado en la landing como pestaña propia ("Studio, Musculación y Asistido") dentro de Horarios (sección Membresías).
 
-### Box Aktiva-T (y nota histórica sobre Clínica Aktiva-T)
-Box y Clínica funcionan en el mismo edificio/esquina, cada uno con su propio acceso: uno por Almirante Barroso y otro por Cristóbal Colón. **Clínica no forma parte del ecosistema activo actualmente** — se documenta abajo solo como referencia histórica, no para uso en material público.
+### Box Aktiva-T
 - **Entrada Box Aktiva-T:** Almirante Barroso 777, Coyhaique.
   - Cross Training y GAP (glúteos, abdomen, piernas). Espacio amplio y acogedor. Alta intensidad con adaptación a cualquier nivel. Clases 100% guiadas por profesores, de calentamiento a elongación final. Comunidad y compañerismo son pilares del lugar.
   - **Horario real (igual todos los días de lunes a viernes):**
@@ -62,10 +61,6 @@ Box y Clínica funcionan en el mismo edificio/esquina, cada uno con su propio ac
     Cerrado 13:00–17:00 todos los días. Ya no abre a las 07:00 ningún día. Todos los bloques son "abierto, clase dirigida" salvo donde se indica otra cosa (Funcional Kids martes y jueves 18:00). No abre sábado (no aparece en la grilla).
   - Contacto Box: WhatsApp +569 73554774.
   - Fuente: `Horario_Box_AktivaT_Barroso.pdf` (carpeta `horarios por sede y actividades`, actualizado 04-08-2026) — reemplaza el horario asimétrico anterior (`Horarios actualizados Box Aktiva-T 17 de Julio.jpeg`): ahora es uniforme los 5 días, abre 1 hora más tarde (08:00 en vez de 07:00) y viernes ya tiene el mismo cierre que el resto de la semana.
-- **[HISTÓRICO — no usar en material público] Entrada Clínica Aktiva-T:** Cristóbal Colón 203, Coyhaique.
-  - Traumatología, kinesiología, nutrición deportiva, pediatría, psicología, tratamiento de la obesidad y reintegro deportivo.
-  - Horario: Lunes a Viernes 10:00–13:00 y 15:00–20:00.
-  - Excluida del ecosistema activo — ver nota al inicio del documento.
 
 ### Cafetería Aktiva
 - Alimentación consciente, hábitos saludables.
@@ -101,7 +96,7 @@ Pilates Reformer también se dicta en esta sede, con horario propio distinto al 
 ## Contacto
 - WhatsApp general CEB: usado en la web/kiosco (`wa.me/56942582210`).
 - Box Aktiva-T: +569 73554774 (distinto del WhatsApp general — confirmar si ambos deben usarse o si el del Box es el vigente para consultas de esa unidad).
-- Cumpleaños: +569 79779242.
+- Cumpleaños: +569 42582210 (general del CEB, corregido 08-09-2026).
 
 ## Cómo elegir la unidad correcta (criterio de venta)
 - **Studio Aktiva-T** si busca: salud, entrenar guiado a su ritmo, Pilates, acompañamiento, empezar desde cero, recomposición corporal, bienestar.
