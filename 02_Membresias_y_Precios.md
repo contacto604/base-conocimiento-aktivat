@@ -46,11 +46,45 @@ Clase grupal de movimiento, fuerza y control (kettlebell y peso corporal), grupo
 - Primera clase sin costo. Incluye evaluación de composición corporal.
 - **Posicionamiento (corregido 06-08-2026):** ya no se describe en la landing como "paso previo a musculación o Pilates" — Fundamentos es un programa con filosofía propia (técnica antes que intensidad, grupos pequeños, sin comparaciones), no una preparación para otra disciplina. Ver `Documento_Maestro_Fundamentos.md` sección 2 para el detalle completo de la filosofía (los tres pilares: Movimiento, Fuerza, Control).
 
-## Recovery — Aktivat Recovery & Performance (por sesión, no mensual)
-Servicio de recuperación deportiva incorporado el 22-07-2026. Fuente: flyers oficiales (`contenido landing page\2.png`, `3.png`, `4.png`). Ubicación: Baquedano 872.
-- **Recovery Esencial:** $29.900 · 25 min · 1 zona. "El reset rápido." Descarga muscular localizada, ventosas y compresas calientes, descompresión tisular, tracción articular. Para: la zona que duele hoy y necesitas seguir entrenando mañana.
-- **Recovery Pro:** $49.900 · 50 min · tren superior o inferior. Todo lo del Esencial + pistola de masaje profesional + percusión terapéutica de alta frecuencia en toda la cadena muscular. Para: molestias recurrentes o post carga intensa.
-- **Recovery Premium:** $69.900 · 70 min · cuerpo completo. Todo lo del Pro + presoterapia de compresión, activación linfática/circulatoria en piernas, screening funcional y movilidad articular integral. Para: post-cumbres, post-triatlón, máximo rendimiento sin acumular fatiga.
+## Recovery y Kinesiología — Aktivat Recovery & Performance (por sesión, no mensual)
+Servicio de recuperación deportiva incorporado el 22-07-2026; kinesiología funcional y a domicilio incorporadas con la **Tabla de valores v6 (02-10-2026)**, que **reemplaza los precios anteriores** (Esencial $29.900, Pro $49.900, Premium $69.900). Fuente vigente: `Tabla de valores - CEB Aktivat - v6.pdf`. Ubicación: Baquedano 872 (la kinesiología a domicilio, en el hogar de la persona). Reservas y consultas: **+56 9 7618 7668 (Klgo. Felipe Leal Matamala)**, que también coordina directamente la atención a domicilio.
+
+**Página propia (02-10-2026):** `https://aktiva-t.com/recovery/` — organizada por problema que la persona quiere resolver (dolor o lesión, tensión por postura, cansancio post-entreno, bruxismo, circulación, movilidad, domicilio), con la tabla completa de valores abajo. En la portada solo queda el acordeón resumen y el enlace.
+
+### Alivio muscular y circulación (masajes)
+| Servicio | Para qué sirve | Duración | Público | Socio |
+|---|---|---|---|---|
+| Masaje Descontracturante | Nudos y tensión por mala postura o estrés; un segmento | 40 min · 1 segmento | $35.000 | $31.500 |
+| Masaje Espalda y Cervical | Tensión de estar sentado o frente al celular todo el día | 40 min | $35.000 | $31.500 |
+| Masaje de Cuello y Brazos | Trabajo de escritorio y esfuerzo repetitivo | 40 min | $35.000 | $31.500 |
+| Masaje de Piernas | Pesadez y fatiga post-entrenamiento o largas horas de pie | 40 min | $35.000 | $31.500 |
+| Masaje Bruxismo (especialidad) | Trabajo facial y temporomandibular; dolor de mandíbula y de cabeza al despertar | 50 min | $40.000 | $36.000 |
+| Masaje Drenaje Linfático | Retención de líquido, hinchazón, pesadez | 40 min | $35.000 | $31.500 |
+
+### Servicios independientes
+| Servicio | Qué es | Duración | Público | Socio |
+|---|---|---|---|---|
+| Sesión de Ventosas | Succión controlada: libera tensión profunda y mejora la circulación local; se combina con otro masaje o va sola | 35 min | $35.000 | $31.500 |
+| Presoterapia piernas + pies | Compresión neumática secuencial: activa la circulación y acelera la recuperación | 50 min | $40.000 | $36.000 |
+
+### Recovery deportivo y movilidad
+- **Plan Recovery Esencial:** $35.000 (socio $31.500) · 35–40 min · 1 zona. Descarga muscular localizada + ventosas y compresas calientes + descompresión tisular + tracción articular y alivio pre-técnica. Para: la zona que duele hoy y necesitas seguir entrenando mañana.
+- **Plan Recovery Pro:** $49.990 (socio $44.990) · 50–60 min · tren superior o inferior. Todo el Esencial + mayor profundidad y superficie + pistola de masaje profesional + percusión de alta frecuencia + presoterapia 15 min. Para: molestias recurrentes o post carga intensa.
+- **Plan Recovery Premium:** $60.000 (socio $54.000) · 70 min · cuerpo completo. Todo el Pro + presoterapia 20 min + activación linfática y circulatoria en piernas completas + screening funcional y movilidad articular integral. Para: post-cumbres, post-triatlón, máximo rendimiento sin acumular fatiga.
+- **Evaluación y Planificación de Movilidad:** $45.000 (socio $40.500). Evaluación completa del rango de movimiento (ROM) + análisis kinesiológico + plan mensual personalizado.
+
+### Kinesiología funcional (Klgo. Felipe Leal)
+- **Sesión de Kinesiología Funcional:** $34.000, sin duración fija. Kinesiología basada en el movimiento: evaluación kinésica y tratamiento de patologías musculoesqueléticas. **El descuento de socio no aplica.**
+- **Packs:** Evaluación $20.000 (qué cubre exactamente, por confirmar con Felipe: figura como primera fila de la tabla de packs) · Sesión única $34.000 · Pack 5 $160.000 ($32.000 c/u, ahorro $10.000) · Pack 10 $300.000 ($30.000 c/u, ahorro $40.000) · Pack 15 $420.000 ($28.000 c/u, ahorro $90.000).
+- **Condiciones de los packs:** no transferibles (uso personal), **sin vencimiento**, y sin descuento de socio.
+
+### Kinesiología a domicilio
+Atención en el hogar, 30 a 60 minutos por sesión según la condición y la tolerancia del paciente. **$37.000 por sesión**, cualquiera de los cuatro tipos: rehabilitación neurológica (secuelas de ACV, Parkinson u otra condición neurológica: movilidad, equilibrio, marcha y traslados, orientando a la familia o cuidador), respiratoria (cuadros agudos o crónicos), traumatológica (dolor, lesión o postoperatorio de cadera, rodilla, fracturas) y fortalecimiento muscular (adulto mayor: fuerza, equilibrio y marcha, para mantener autonomía y reducir riesgo de caídas). **Pack 5 sesiones: $165.000** ($33.000 c/u, ahorro $20.000), con las mismas condiciones que los packs de consulta. Se coordina directamente al +56 9 7618 7668.
+
+### Convenio con socios (Aktivat Gym / Box)
+- **−10% en sesión suelta** para socio activo del Studio o del Box. **No incluye** kinesiología, kinesiología a domicilio ni packs.
+- **Primera sesión miembro del Box:** −20% en Recovery Esencial ($35.000 → $28.000), por una sola vez.
+- Los dos beneficios **no son acumulables**: en la primera sesión aplica el −20%; desde la segunda, el −10%.
 
 ## Evaluación de Composición Corporal — versión suelta (agregado 26-08-2026)
 Servicio independiente, sin necesidad de plan mensual. Equipo: **bioimpedancia Tanita BC-1000**. Ubicación: Baquedano 872.
