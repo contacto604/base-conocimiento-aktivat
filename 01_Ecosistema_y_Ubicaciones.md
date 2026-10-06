@@ -27,7 +27,6 @@ Nota: Recovery (Aktivat Recovery & Performance) es un servicio de recuperación 
 No son parte de los planes base Esencial/Pro/Box — son programas aparte, sin precio público confirmado aún (pendiente, ver [07_Decisiones_y_Pendientes.md](07_Decisiones_y_Pendientes.md)).
 
 - **Fundamentos** (Studio) — clase grupal de técnica y movimientos fundamentales, previa a musculación o Pilates. Aparte de los planes Esencial y Pro, no incluida en ellos.
-- **Clínica formativa de fútbol** (Box) — formación técnica y física a través del fútbol, para niños y jóvenes.
 - **Preparación física de equipos** (Box) — programa a medida para equipos/clubes. Requiere completar un formulario de solicitud (aún no implementado como formulario real — hoy deriva a WhatsApp del Box).
 - **Funcional Kids** (Box) — clase funcional para niños: juego, movimiento y ejercicio en formato entretenido y guiado. Martes y jueves 18:00. **$39.900/mes** (confirmado por Edgar 23-07-2026).
 
