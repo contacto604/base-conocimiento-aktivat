@@ -87,7 +87,7 @@ Atención en el hogar, 30 a 60 minutos por sesión según la condición y la tol
 - Los dos beneficios **no son acumulables**: en la primera sesión aplica el −20%; desde la segunda, el −10%.
 
 ## Evaluación de Composición Corporal — versión suelta (agregado 26-08-2026)
-Servicio independiente, sin necesidad de plan mensual. Equipo: **bioimpedancia Tanita BC-1000**. Ubicación: Baquedano 872.
+Servicio independiente, sin necesidad de plan mensual. Método: **evaluación por bioimpedancia** (sin nombrar el equipo). Ubicación: Baquedano 872.
 - **Precio:** $19.900 · 30 min · medición (peso, % de grasa, masa muscular) + interpretación personalizada de los resultados junto al preparador físico a cargo (Edgar Valenzuela).
 - **Precio de referencia usado para fijarlo:** investigación de mercado (26-08-2026) mostró que evaluaciones de bioimpedancia estándar (solo medición, sin interpretación) en clínicas de Santiago cuestan entre $15.000 y $25.000. Se fijó en $19.900 por incluir interpretación profesional 1:1, y para mantener consistencia con el patrón de precios `$X9.900` que ya usa Recovery y Funcional Kids.
 - **No confundir** con la evaluación de composición corporal que ya viene incluida gratis, una vez al mes, en los planes Esencial y Pro del Studio — esta versión suelta es para quien no tiene plan mensual, o quiere una evaluación extra fuera de la que ya tiene incluida.
