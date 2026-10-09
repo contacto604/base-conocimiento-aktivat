@@ -52,7 +52,7 @@
 
 ### Software y operación
 - **EVO (ABC Latam):** CRM principal — pagos, contratos, reservas, asistencia
-- **Reservas:** app EVO, ventana de 7 días, cancelación mínimo 2 horas antes
+- **Reservas:** app EVO, ventana de 7 días, cancelación mínimo 3 horas antes
 - **Sedes:** sede principal Baquedano 872 + segunda sede (habilitada para horarios muertos y Pilates personalizado)
 - **Horario:** L–V 06:00–22:00 · Sábado 09:00–13:00
 
@@ -386,7 +386,7 @@ Edgar o Dirección revisan mensualmente el cumplimiento del protocolo. El éxito
 ### Reservas
 - Sistema: app EVO
 - Ventana de reserva: 7 días de anticipación
-- Cancelación sin penalidad: mínimo **2 horas antes** de la clase
+- Cancelación sin penalidad: mínimo **3 horas antes** de la clase
 
 ### Inasistencias — Planes grupales (Esencial y Pro)
 - Si el socio no cancela dentro del plazo → cuenta como inasistencia

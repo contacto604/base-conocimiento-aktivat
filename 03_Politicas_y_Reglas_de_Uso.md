@@ -3,7 +3,7 @@
 ## Reservas
 - Sistema: app EVO.
 - Ventana de reserva: 7 días de anticipación.
-- Cancelación sin penalidad: mínimo 2 horas antes de la clase.
+- Cancelación sin penalidad: mínimo 3 horas antes de la clase.
 
 ## Medios de pago (confirmado por Edgar, 06-08-2026)
 - Transferencia bancaria, efectivo y tarjeta de crédito.
