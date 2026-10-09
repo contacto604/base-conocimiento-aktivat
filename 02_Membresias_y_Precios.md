@@ -93,6 +93,10 @@ Servicio independiente, sin necesidad de plan mensual. Método: **evaluación po
 - **No confundir** con la evaluación de composición corporal que ya viene incluida gratis, una vez al mes, en los planes Esencial y Pro del Studio — esta versión suelta es para quien no tiene plan mensual, o quiere una evaluación extra fuera de la que ya tiene incluida.
 - Publicado en la landing como acordeón propio en Membresías, justo después de Aroma Touch.
 
+### Evaluación corporal para socios del Box (definido por Edgar, 09-10-2026)
+- En los planes del **Box**, la **primera evaluación es gratis**; las siguientes se pagan a **valor de socio: $9.900**.
+- En el Studio, solo los planes Esencial y Pro incluyen una evaluación al mes.
+
 ### Oferta "primera evaluación" (agregada y confirmada por Edgar 26-08-2026)
 Pensada como gancho de conversión — mismo tipo de lógica que la primera clase gratis de Fundamentos.
 - **$9.900** (en vez de $19.900) — **solo para quien no es socio activo** y es su primera evaluación en Aktiva-T.
